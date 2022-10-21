@@ -1,0 +1,24 @@
+<template>
+    <div>
+        My First salesforce LWC in VSCode
+    </div>
+    <section>
+        <h2 class="slds-text-heading_medium slds-p-top_large">
+            Considerations
+        </h2>
+        <ul class="slds-list_dotted">
+            <li class="slds-m-horizontal_xx-small slds-m-bottom_x-small">Have fun</li>
+            <li class="slds-m-horizontal_xx-small slds-m-bottom_x-small">Learn LWC</li>
+            <li class="slds-m-horizontal_xx-small slds-m-bottom_x-small">Share your learning</li>
+        </ul>
+        <div>
+            <lightning-input class='txtInput' label="TypeHere..." value={typedValue}></lightning-input>
+            <lightning-button variant="brand" label="Submit" onclick={handleClick}>
+            </lightning-button>
+        </div>
+ 
+    </section>
+    <div>
+        <p>{typedValue}!</p>
+    </div>
+</template>
